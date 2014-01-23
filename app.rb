@@ -12,17 +12,20 @@ Dir[File.join(File.dirname(__FILE__), 'lib','*.rb')].each do |f|
   require f
 end
 
-helpers Sinatra::ContentFor
+class App < Sinatra::Base
+  helpers Sinatra::ContentFor
+  register Sinatra::Partial
 
-configure do
-  set :views, 'views'
-end
+  configure do
+    set :views, 'views'
+  end
 
-get '/' do
-  haml :home
-end
+  get '/' do
+    haml :home
+  end
 
-get '/places' do
-  @places = YAML.load_file("./data/places.yml").map { |a| Place.new(a) }
-  haml :places
+  get '/places' do
+    @places = YAML.load_file("./data/places.yml").map { |a| Place.new(a) }
+    haml :places
+  end
 end
