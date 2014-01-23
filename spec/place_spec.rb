@@ -9,11 +9,13 @@ describe Place do
   its(:long) { should == -112.074037 }
   its(:color) { should == "red" }
   its(:lived) { should be_true }
+  its(:z_index) { should == 1 }
 
   context "that I visited" do
     subject { Place.new(data.detect { |p| !p["lived"] }) }
 
     its(:lived) { should be_false }
     its(:color) { should == "blue" }
+    its(:z_index) { should == 0 }
   end
 end

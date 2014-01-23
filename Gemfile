@@ -5,6 +5,7 @@ gem 'haml'
 gem 'sinatra-contrib', :require => 'sinatra/content_for'
 gem "sinatra-partial"
 gem 'unicorn'
+gem 'rest-client'
 
 group :development, :test do
   gem 'rspec'

@@ -9,7 +9,7 @@
   lived: y
 - name: "San Salvador"
   lat: 13.706881
-  long: -89.201810
+  long: -89.20181
   lived: y
 - name: "Boston"
   lat: 42.358431
@@ -29,11 +29,11 @@
   lived: y
 - name: "Bitburg"
   lat: 49.966414
-  long: 6.529860
+  long: 6.52986
   lived: y
 - name: "Burke, VA"
   lat: 38.793447
-  long: -77.271650
+  long: -77.27165
   lived: y
 - name: "Oxford"
   lat: 51.752021
@@ -46,16 +46,16 @@
   lat: -12.047816
   long: -77.062203
 - name: "Tacna"
-  lat: -18.017570
+  lat: -18.01757
   long: -70.250969
 - name: "Cusco"
-  lat: -13.525000
+  lat: -13.525
   long: -71.972222
 - name: "La Paz"
-  lat: -16.499010
+  lat: -16.49901
   long: -68.146248
 - name: "Santiago"
-  lat: -33.469120
+  lat: -33.46912
   long: -70.641997
 - name: "Panama"
   lat: 8.537981
@@ -79,7 +79,7 @@
   lat: -29.857876
   long: 31.027581
 - name: "Harare"
-  lat: -17.829220
+  lat: -17.82922
   long: 31.053961
 - name: "Lusaka"
   lat: -15.408193
@@ -103,7 +103,7 @@
   lat: 11.558831
   long: 104.917445
 - name: "Siem Riep"
-  lat: 13.368660
+  lat: 13.36866
   long: 103.864403
 - name: "Saigon"
   lat: 10.823099
@@ -115,14 +115,14 @@
   lat: 25.091075
   long: 121.559834
 - name: "Yuli"
-  lat: 23.387500
+  lat: 23.3875
   long: 121.376389
 - name: "Shanghai"
   lat: 31.230416
   long: 121.473701
 - name: "Hangzhou"
   lat: 30.274085
-  long: 120.155070
+  long: 120.15507
 - name: "Yangshuo"
   lat: 24.778481
   long: 110.496593
@@ -137,9 +137,9 @@
   long: 72.877656
 - name: "New Delhi"
   lat: 28.635308
-  long: 77.224960
+  long: 77.22496
 - name: "Pune"
-  lat: 18.520430
+  lat: 18.52043
   long: 73.856744
 - name: "Goa"
   lat: 15.299326
@@ -148,7 +148,7 @@
   lat: 10.850516
   long: 76.271083
 - name: "Udaipur"
-  lat: 24.571270
+  lat: 24.57127
   long: 73.691544
 - name: "Jodhpur"
   lat: 26.238947
@@ -161,13 +161,301 @@
   long: 82.973914
 - name: "Jerusalem"
   lat: 31.768319
-  long: 35.213710
+  long: 35.21371
 - name: "Tel Aviv"
   lat: 32.066158
   long: 34.777819
-# TODO
-# Mexico and Central America
-# Europe
-# U.S.
-# Distinguish between lived vs. visited
-# Switch to pins
+- name: "Tel Aviv"
+  lat: 32.066158
+  long: 34.777819
+- name: "Dublin"
+  lat: 53.3498053
+  long: -6.2603097
+- name: "Killarney"
+  lat: 52.05993530000001
+  long: -9.5044265
+- name: "Bath"
+  lat: 51.375801
+  long: -2.3599039
+- name: "Manchester"
+  lat: 53.479324
+  long: -2.2484851
+- name: "Cambridge, UK"
+  lat: 52.205337
+  long: 0.121817
+- name: "London"
+  lat: 51.51121389999999
+  long: -0.1198244
+- name: "Edinburgh"
+  lat: 55.953252
+  long: -3.188267
+- name: "Amsterdam"
+  lat: 52.3702157
+  long: 4.895167900000001
+- name: "Brussels"
+  lat: 50.8503396
+  long: 4.3517103
+- name: "Bruges"
+  lat: 51.209348
+  long: 3.2246995
+- name: "Paris"
+  lat: 48.856614
+  long: 2.3522219
+- name: "Strasbourg"
+  lat: 48.583148
+  long: 7.747882
+- name: "San Sebastian"
+  lat: 43.318334
+  long: -1.9812313
+- name: "Barcelona"
+  lat: 41.3850639
+  long: 2.1734035
+- name: "Pamplona"
+  lat: 42.8116631
+  long: -1.6482653
+- name: "Madrid"
+  lat: 40.4167754
+  long: -3.7037902
+- name: "Sevilla"
+  lat: 37.3880961
+  long: -5.9823299
+- name: "Cordoba"
+  lat: 37.8881751
+  long: -4.7793835
+- name: "Cadiz"
+  lat: 36.5270612
+  long: -6.2885962
+- name: "Cologne"
+  lat: 50.937531
+  long: 6.9602786
+- name: "Berlin"
+  lat: 52.52000659999999
+  long: 13.404954
+- name: "Munich"
+  lat: 48.1351253
+  long: 11.5819806
+- name: "Warsaw"
+  lat: 52.2296756
+  long: 21.0122287
+- name: "Krakow"
+  lat: 50.06465009999999
+  long: 19.9449799
+- name: "Prague"
+  lat: 50.0755381
+  long: 14.4378005
+- name: "Innsbruck"
+  lat: 47.2692124
+  long: 11.4041024
+- name: "Lucerne"
+  lat: 47.05033479999999
+  long: 8.3156129
+- name: "Interlaken"
+  lat: 46.6873837
+  long: 7.869550499999999
+- name: "Ljubljana"
+  lat: 46.05645089999999
+  long: 14.5080702
+- name: "Zagreb"
+  lat: 45.8130293
+  long: 15.9778949
+- name: "Split"
+  lat: 43.5081323
+  long: 16.4401935
+- name: "Hvar"
+  lat: 43.1541875
+  long: 16.6527099
+- name: "Dubrovnik"
+  lat: 42.65066059999999
+  long: 18.0944238
+- name: "Sarajevo"
+  lat: 43.8562586
+  long: 18.4130763
+- name: "Belgrade"
+  lat: 44.8205556
+  long: 20.4622222
+- name: "Istanbul"
+  lat: 41.00527
+  long: 28.97696
+- name: "Florence, Italy"
+  lat: 43.7710332
+  long: 11.2480006
+- name: "Bologna, Italy"
+  lat: 44.494887
+  long: 11.3426163
+- name: "Venice"
+  lat: 45.4408474
+  long: 12.3155151
+- name: "Milan"
+  lat: 45.4654542
+  long: 9.186516
+- name: "Como"
+  lat: 45.8080597
+  long: 9.0851765
+- name: "Rome"
+  lat: 41.8929163
+  long: 12.4825199
+- name: "Sardegna"
+  lat: 40.1208752
+  long: 9.012892599999999
+- name: "Naples, Italy"
+  lat: 40.8517746
+  long: 14.2681244
+- name: "Capri"
+  lat: 40.5532009
+  long: 14.222154
+- name: "Amalfi"
+  lat: 40.6340026
+  long: 14.6026805
+- name: "Calabria"
+  lat: 39.3087714
+  long: 16.3463791
+- name: "Taormina"
+  lat: 37.8516366
+  long: 15.2853127
+- name: "Palermo"
+  lat: 38.1156879
+  long: 13.3612671
+- name: "Cefalu"
+  lat: 38.0332467
+  long: 14.0173925
+- name: "Agrigento"
+  lat: 37.3110897
+  long: 13.5765475
+- name: "Havana"
+  lat: 23.1168
+  long: -82.38855699999999
+- name: "Trinidad, Cuba"
+  lat: 21.80423
+  long: -79.984833
+- name: "San Juan, Puerto Rico"
+  lat: 18.4663338
+  long: -66.1057217
+- name: "Bocas del Toro"
+  lat: 9.335882
+  long: -82.2545109
+- name: "San Blas, Panama"
+  lat: 9.234439499999999
+  long: -78.19262499999999
+- name: "Leon, Nicaragua"
+  lat: 12.5092037
+  long: -86.6611083
+- name: "Granada"
+  lat: 37.1773363
+  long: -3.5985571
+- name: "Copan, Honduras"
+  lat: 14.9360838
+  long: -88.86469799999999
+- name: "Perquin"
+  lat: 13.9567983
+  long: -88.16085149999999
+- name: "Arcatao"
+  lat: 14.0938889
+  long: -88.7494444
+- name: "La Libertad"
+  lat: -8.143593300000001
+  long: -78.4751945
+- name: "Arcatao"
+  lat: 14.0938889
+  long: -88.7494444
+- name: "Atitlan"
+  lat: 14.6906713
+  long: -91.20252070000001
+- name: "Antigua"
+  lat: 17.0746557
+  long: -61.8175207
+- name: "Xela"
+  lat: 14.836156
+  long: -91.521959
+- name: "Todos los Santos, Guatemala"
+  lat: 15.50437
+  long: -91.603653
+- name: "Tikal"
+  lat: 17.2234368
+  long: -89.6216334
+- name: "Livingston, Guatemala"
+  lat: 15.83
+  long: -88.75
+- name: "Punta Gorda, Belize"
+  lat: 16.098935
+  long: -88.80949059999999
+- name: "Caye Caulker"
+  lat: 17.7611578
+  long: -88.02774869999999
+- name: "Placencia"
+  lat: 45.0473754
+  long: 9.6865813
+- name: "San Cristobal de las Casas"
+  lat: 16.7370359
+  long: -92.6376186
+- name: "Chenalho"
+  lat: 16.8981342
+  long: -92.6241534
+- name: "Campeche"
+  lat: 19.8301251
+  long: -90.5349087
+- name: "Calakmul"
+  lat: 18.0383007
+  long: -89.6738919
+- name: "Tulum"
+  lat: 20.2119444
+  long: -87.4658333
+- name: "Villahermosa"
+  lat: 17.987557
+  long: -92.929147
+- name: "Papantla"
+  lat: 20.4566709
+  long: -97.3156131
+- name: "Hueytamalco, Mexico"
+  lat: 19.9395122
+  long: -97.28787609999999
+- name: "Oaxaca"
+  lat: 17.0594169
+  long: -96.7216219
+- name: "Puerto Escondido"
+  lat: 15.8655354
+  long: -97.06944709999999
+- name: "Acapulco"
+  lat: 16.863794
+  long: -99.881614
+- name: "Puerto Vallarta"
+  lat: 20.615845
+  long: -105.230256
+- name: "Patzcuaro"
+  lat: 19.5134498
+  long: -101.6091554
+- name: "Guanajuato"
+  lat: 21.018111
+  long: -101.25832
+- name: "Queretaro"
+  lat: 20.5887932
+  long: -100.3898881
+- name: "Malinalco"
+  lat: 18.944578
+  long: -99.5001039
+- name: "Tepoztlan"
+  lat: 18.9848015
+  long: -99.0930528
+- name: "Los Cabos"
+  lat: 22.8905327
+  long: -109.9167371
+- name: "Monterrey, Mexico"
+  lat: 25.6732109
+  long: -100.309201
+- name: "Tijuana"
+  lat: 32.5149469
+  long: -117.0382471
+- name: "Nogales"
+  lat: 31.3403775
+  long: -110.9342532
+- name: "Naco"
+  lat: 31.3353801
+  long: -109.9481297
+- name: "Ciudad Juarez"
+  lat: 31.6975262
+  long: -106.4431742
+- name: "Nuevo Laredo"
+  lat: 27.481462
+  long: -99.509118
+- name: "Matamoros"
+  lat: 25.8690294
+  long: -97.50273759999999

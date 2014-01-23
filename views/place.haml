@@ -3,5 +3,6 @@ new google.maps.Marker({ |
   map: map, |
   title: "#{place.name}", |
   animation: google.maps.Animation.DROP, |
-  icon: "http://maps.google.com/mapfiles/ms/icons/#{place.color}-dot.png" |
+  icon: "http://maps.google.com/mapfiles/ms/icons/#{place.color}-dot.png", |
+  zIndex: #{place.z_index} |
 }); |
