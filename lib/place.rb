@@ -11,5 +11,4 @@ class Place
   def color
     lived ? "red" : "blue"
   end
-
 end
