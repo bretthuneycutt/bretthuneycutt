@@ -1,5 +1,7 @@
 new google.maps.Marker({ |
-  position: new google.maps.LatLng(#{place["lat"]}, #{place["long"]}), |
+  position: new google.maps.LatLng(#{place.lat}, #{place.long}), |
   map: map, |
-  title: "#{place["name"]}" |
+  title: "#{place.name}", |
+  animation: google.maps.Animation.DROP, |
+  icon: "http://maps.google.com/mapfiles/ms/icons/#{place.color}-dot.png" |
 }); |
