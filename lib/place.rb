@@ -1,14 +1,15 @@
 class Place
-  attr_reader :name, :lat, :long
+  attr_reader :name, :lat, :long, :lived
 
   def initialize(attributes)
     @name = attributes["name"]
     @lat = attributes["lat"]
     @long = attributes["long"]
+    @lived = !!attributes["lived"]
   end
 
   def color
-    "green"
+    lived ? "red" : "blue"
   end
 
 end

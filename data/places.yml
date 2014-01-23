@@ -2,33 +2,43 @@
 - name: "Phoenix"
   lat: 33.448377
   long: -112.074037
+  lived: y
 - name: "Mexico DF"
   lat: 19.432608
   long: -99.133208
+  lived: y
 - name: "San Salvador"
   lat: 13.706881
   long: -89.201810
+  lived: y
 - name: "Boston"
   lat: 42.358431
   long: -71.059773
+  lived: y
 - name: "New York"
   lat: 40.714353
   long: -74.005973
+  lived: y
 - name: "San Francisco"
   lat: 37.774929
   long: -122.419416
+  lived: y
 - name: "Las Vegas"
   lat: 36.114646
   long: -115.172816
+  lived: y
 - name: "Bitburg"
   lat: 49.966414
   long: 6.529860
+  lived: y
 - name: "Burke, VA"
   lat: 38.793447
   long: -77.271650
+  lived: y
 - name: "Oxford"
   lat: 51.752021
   long: -1.257726
+  lived: y
 - name: "Quito"
   lat: -0.217097
   long: -78.516988
