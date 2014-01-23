@@ -29,3 +29,135 @@
 - name: "Oxford"
   lat: 51.752021
   long: -1.257726
+- name: "Quito"
+  lat: -0.217097
+  long: -78.516988
+- name: "Lima"
+  lat: -12.047816
+  long: -77.062203
+- name: "Tacna"
+  lat: -18.017570
+  long: -70.250969
+- name: "Cusco"
+  lat: -13.525000
+  long: -71.972222
+- name: "La Paz"
+  lat: -16.499010
+  long: -68.146248
+- name: "Santiago"
+  lat: -33.469120
+  long: -70.641997
+- name: "Panama"
+  lat: 8.537981
+  long: -80.782127
+- name: "Managua"
+  lat: 12.136389
+  long: -86.251389
+- name: "San Jose"
+  lat: 9.927128
+  long: -84.082012
+- name: "Guatemala"
+  lat: 15.783471
+  long: -90.230759
+- name: "Cape Town"
+  lat: -33.924869
+  long: 18.424055
+- name: "Johannesburg"
+  lat: -26.204103
+  long: 28.047305
+- name: "Durban"
+  lat: -29.857876
+  long: 31.027581
+- name: "Harare"
+  lat: -17.829220
+  long: 31.053961
+- name: "Lusaka"
+  lat: -15.408193
+  long: 28.287167
+- name: "Lagos"
+  lat: 6.441158
+  long: 3.417977
+- name: "Dakar"
+  lat: 14.764504
+  long: -17.366029
+- name: "Jakarta"
+  lat: -6.208763
+  long: 106.845599
+- name: "Singapore"
+  lat: 1.352083
+  long: 103.819836
+- name: "Bangkok"
+  lat: 13.727896
+  long: 100.524123
+- name: "Phnom Penh"
+  lat: 11.558831
+  long: 104.917445
+- name: "Siem Riep"
+  lat: 13.368660
+  long: 103.864403
+- name: "Saigon"
+  lat: 10.823099
+  long: 106.629664
+- name: "Hong Kong"
+  lat: 22.396428
+  long: 114.109497
+- name: "Taipei"
+  lat: 25.091075
+  long: 121.559834
+- name: "Yuli"
+  lat: 23.387500
+  long: 121.376389
+- name: "Shanghai"
+  lat: 31.230416
+  long: 121.473701
+- name: "Hangzhou"
+  lat: 30.274085
+  long: 120.155070
+- name: "Yangshuo"
+  lat: 24.778481
+  long: 110.496593
+- name: "Tokyo"
+  lat: 35.689487
+  long: 139.691706
+- name: "Kyoto"
+  lat: 35.011636
+  long: 135.768029
+- name: "Mumbai"
+  lat: 19.075984
+  long: 72.877656
+- name: "New Delhi"
+  lat: 28.635308
+  long: 77.224960
+- name: "Pune"
+  lat: 18.520430
+  long: 73.856744
+- name: "Goa"
+  lat: 15.299326
+  long: 74.123996
+- name: "Kerala"
+  lat: 10.850516
+  long: 76.271083
+- name: "Udaipur"
+  lat: 24.571270
+  long: 73.691544
+- name: "Jodhpur"
+  lat: 26.238947
+  long: 73.024309
+- name: "Jaisalmer"
+  lat: 26.915749
+  long: 70.908344
+- name: "Varanasi"
+  lat: 25.317645
+  long: 82.973914
+- name: "Jerusalem"
+  lat: 31.768319
+  long: 35.213710
+- name: "Tel Aviv"
+  lat: 32.066158
+  long: 34.777819
+# TODO
+# Mexico and Central America
+# Europe
+# U.S.
+# Distinguish between lived vs. visited
+# Switch to pins
