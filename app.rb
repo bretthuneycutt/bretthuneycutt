@@ -1,5 +1,13 @@
 require 'sinatra'
 
+configure do
+  set :views, 'views'
+end
+
 get '/' do
-  File.read "public/index.html"
+  haml :home
+end
+
+get '/places' do
+  haml :places
 end
