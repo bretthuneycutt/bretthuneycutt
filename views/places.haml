@@ -12,12 +12,6 @@
 
       var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
 
-      // To add the marker to the map, use the 'map' property
-      var marker = new google.maps.Marker({
-          position: new google.maps.LatLng(20, 0),
-          map: map,
-          title:"Hello World!"
-      });
-
+      #{partial :place, collection: @places}
     }
     google.maps.event.addDomListener(window, 'load', initialize);

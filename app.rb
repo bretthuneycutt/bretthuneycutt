@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'bundler'
 require 'sinatra'
+require 'yaml'
 
 ENV['RACK_ENV'] ||= 'development'
 ENV['MAPS_API_KEY'] ||= 'AIzaSyBuVzKxLXD2UehCt1qfFsTItGe2gHFQvT0'
@@ -18,5 +19,6 @@ get '/' do
 end
 
 get '/places' do
+  @places = YAML.load_file("./data/places.yml")
   haml :places
 end
