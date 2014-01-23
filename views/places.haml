@@ -1,0 +1,23 @@
+#map-canvas
+
+- content_for :head do
+  %meta{name: 'viewport', content: 'initial-scale=1.0, user-scalable=no'}
+  %script{type: 'text/javascript', src: "https://maps.googleapis.com/maps/api/js?key=#{ENV['MAPS_API_KEY']}&sensor=false"}
+  :javascript
+    function initialize() {
+      var mapOptions = {
+        center: new google.maps.LatLng(20, 0),
+        zoom: 3
+      };
+
+      var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+
+      // To add the marker to the map, use the 'map' property
+      var marker = new google.maps.Marker({
+          position: new google.maps.LatLng(20, 0),
+          map: map,
+          title:"Hello World!"
+      });
+
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
