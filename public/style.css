@@ -49,3 +49,11 @@ h2 {
 .interests {
   padding-bottom: 50px;
 }
+
+.travel .lived {
+  color: #FD7567;
+}
+
+.travel .visited {
+  color: #6991FD;
+}
