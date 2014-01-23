@@ -1,5 +1,5 @@
-#map-canvas
-
+- content_for(:title) { "Places | Brett Huneycutt"}
+- content_for(:description) { "Places I have lived or visited for at least one night, plotted on a Google map."}
 - content_for :head do
   %meta{name: 'viewport', content: 'initial-scale=1.0, user-scalable=no'}
   %script{type: 'text/javascript', src: "https://maps.googleapis.com/maps/api/js?key=#{ENV['MAPS_API_KEY']}&sensor=false"}
@@ -15,3 +15,6 @@
       #{partial :place, collection: @places}
     }
     google.maps.event.addDomListener(window, 'load', initialize);
+
+#map-canvas
+
