@@ -2,3 +2,30 @@
 - name: "Phoenix"
   lat: 33.448377
   long: -112.074037
+- name: "Mexico DF"
+  lat: 19.432608
+  long: -99.133208
+- name: "San Salvador"
+  lat: 13.706881
+  long: -89.201810
+- name: "Boston"
+  lat: 42.358431
+  long: -71.059773
+- name: "New York"
+  lat: 40.714353
+  long: -74.005973
+- name: "San Francisco"
+  lat: 37.774929
+  long: -122.419416
+- name: "Las Vegas"
+  lat: 36.114646
+  long: -115.172816
+- name: "Bitburg"
+  lat: 49.966414
+  long: 6.529860
+- name: "Burke, VA"
+  lat: 38.793447
+  long: -77.271650
+- name: "Oxford"
+  lat: 51.752021
+  long: -1.257726
